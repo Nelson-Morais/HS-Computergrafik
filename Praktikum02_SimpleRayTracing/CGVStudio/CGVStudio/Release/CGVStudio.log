@@ -1,0 +1,20 @@
+﻿  CGUtilities.cpp
+  color.cpp
+  main.cpp
+  rgbimage.cpp
+C:\Users\nktrc\OneDrive\VSWorkspace\CG Praktikum\Praktikum02_SimpleRayTracing\src\rgbimage.cpp(45,11): warning C4244: '=': conversion from 'float' to 'char', possible loss of data
+C:\Users\nktrc\OneDrive\VSWorkspace\CG Praktikum\Praktikum02_SimpleRayTracing\src\rgbimage.cpp(51,9): warning C4309: '=': truncation of constant value
+C:\Users\nktrc\OneDrive\VSWorkspace\CG Praktikum\Praktikum02_SimpleRayTracing\src\rgbimage.cpp(146,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\nktrc\OneDrive\VSWorkspace\CG Praktikum\Praktikum02_SimpleRayTracing\src\rgbimage.cpp(147,21): warning C4018: '<': signed/unsigned mismatch
+  SimpleRayTracer.cpp
+C:\Users\nktrc\OneDrive\VSWorkspace\CG Praktikum\Praktikum02_SimpleRayTracing\src\SimpleRayTracer.cpp(65,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\nktrc\OneDrive\VSWorkspace\CG Praktikum\Praktikum02_SimpleRayTracing\src\SimpleRayTracer.cpp(66,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\nktrc\OneDrive\VSWorkspace\CG Praktikum\Praktikum02_SimpleRayTracing\src\SimpleRayTracer.cpp(105,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\nktrc\OneDrive\VSWorkspace\CG Praktikum\Praktikum02_SimpleRayTracing\src\SimpleRayTracer.cpp(121,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\nktrc\OneDrive\VSWorkspace\CG Praktikum\Praktikum02_SimpleRayTracing\src\SimpleRayTracer.cpp(131,12): warning C4018: '<': signed/unsigned mismatch
+  vector.cpp
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 160 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  CGVStudio.vcxproj -> C:\Users\nktrc\OneDrive\VSWorkspace\CG Praktikum\Praktikum02_SimpleRayTracing\CGVStudio\Release\CGVStudio.exe

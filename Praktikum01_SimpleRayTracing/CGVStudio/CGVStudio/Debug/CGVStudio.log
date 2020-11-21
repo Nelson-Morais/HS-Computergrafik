@@ -1,0 +1,14 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(491,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (CGVStudio.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  color.cpp
+  main.cpp
+  rgbimage.cpp
+C:\Users\nktrc\OneDrive\VSWorkspace\CG Praktikum\Praktikum01_SimpleRayTracing\src\rgbimage.cpp(45,11): warning C4244: '=': conversion from 'float' to 'char', possible loss of data
+C:\Users\nktrc\OneDrive\VSWorkspace\CG Praktikum\Praktikum01_SimpleRayTracing\src\rgbimage.cpp(51,9): warning C4309: '=': truncation of constant value
+C:\Users\nktrc\OneDrive\VSWorkspace\CG Praktikum\Praktikum01_SimpleRayTracing\src\rgbimage.cpp(146,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\nktrc\OneDrive\VSWorkspace\CG Praktikum\Praktikum01_SimpleRayTracing\src\rgbimage.cpp(147,21): warning C4018: '<': signed/unsigned mismatch
+  test1.cpp
+  test2.cpp
+  test3.cpp
+  vector.cpp
+  Generating Code...
+  CGVStudio.vcxproj -> C:\Users\nktrc\OneDrive\VSWorkspace\CG Praktikum\Praktikum01_SimpleRayTracing\CGVStudio\Debug\Praktikum01_SimpleRayTracing.exe
