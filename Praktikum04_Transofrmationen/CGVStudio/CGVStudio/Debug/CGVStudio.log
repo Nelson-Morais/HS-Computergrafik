@@ -1,0 +1,7 @@
+﻿  Application.cpp
+C:\Users\nktrc\OneDrive\VSWorkspace\CG Praktikum\Praktikum04_Transofrmationen\src\Application.cpp(100,35): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  Tank.cpp
+  main.cpp
+C:\Users\nktrc\OneDrive\VSWorkspace\CG Praktikum\Praktikum04_Transofrmationen\src\main.cpp(56,32): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  Generating Code...
+  CGVStudio.vcxproj -> C:\Users\nktrc\OneDrive\VSWorkspace\CG Praktikum\Praktikum04_Transofrmationen\CGVStudio\Debug\Praktikum04_Transofrmationen.exe

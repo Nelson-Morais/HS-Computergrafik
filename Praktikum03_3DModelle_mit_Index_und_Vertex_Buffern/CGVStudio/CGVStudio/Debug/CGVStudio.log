@@ -1,3 +1,14 @@
 ﻿  Application.cpp
-LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+  LineBoxModel.cpp
+  Model.cpp
+C:\Users\nktrc\OneDrive\VSWorkspace\CG Praktikum\Praktikum03_3DModelle_mit_Index_und_Vertex_Buffern\src\Model.cpp(100,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\nktrc\OneDrive\VSWorkspace\CG Praktikum\Praktikum03_3DModelle_mit_Index_und_Vertex_Buffern\src\Model.cpp(107,37): warning C4018: '<': signed/unsigned mismatch
+C:\Users\nktrc\OneDrive\VSWorkspace\CG Praktikum\Praktikum03_3DModelle_mit_Index_und_Vertex_Buffern\src\Model.cpp(144,31): warning C4018: '<': signed/unsigned mismatch
+C:\Users\nktrc\OneDrive\VSWorkspace\CG Praktikum\Praktikum03_3DModelle_mit_Index_und_Vertex_Buffern\src\Model.cpp(147,35): warning C4018: '<': signed/unsigned mismatch
+C:\Users\nktrc\OneDrive\VSWorkspace\CG Praktikum\Praktikum03_3DModelle_mit_Index_und_Vertex_Buffern\src\Model.cpp(165,27): warning C4018: '<': signed/unsigned mismatch
+C:\Users\nktrc\OneDrive\VSWorkspace\CG Praktikum\Praktikum03_3DModelle_mit_Index_und_Vertex_Buffern\src\Model.cpp(171,27): warning C4018: '<': signed/unsigned mismatch
+C:\Users\nktrc\OneDrive\VSWorkspace\CG Praktikum\Praktikum03_3DModelle_mit_Index_und_Vertex_Buffern\src\Model.cpp(207,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\nktrc\OneDrive\VSWorkspace\CG Praktikum\Praktikum03_3DModelle_mit_Index_und_Vertex_Buffern\src\Model.cpp(208,27): warning C4018: '<': signed/unsigned mismatch
+  TriangleBoxModel.cpp
+  Generating Code...
   CGVStudio.vcxproj -> C:\Users\nktrc\OneDrive\VSWorkspace\CG Praktikum\Praktikum03_3DModelle_mit_Index_und_Vertex_Buffern\CGVStudio\Debug\Praktikum03_3DModelle_mit_Index_und_Vertex_Buffern.exe

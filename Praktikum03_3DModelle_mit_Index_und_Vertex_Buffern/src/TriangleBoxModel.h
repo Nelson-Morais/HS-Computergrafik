@@ -21,7 +21,7 @@ class TriangleBoxModel : public BaseModel
 public:
     TriangleBoxModel(float Width=1, float Height=1, float Depth=1 );
     virtual ~TriangleBoxModel() {}
-    void makePane(const Vector&, const Vector&, const Vector&, const Vector&, const Vector&);
+    void makePlane(const Vector&, const Vector&, const Vector&, const Vector&, const Vector&);
     virtual void draw(const BaseCamera& Cam);
 protected:
     VertexBuffer VB;

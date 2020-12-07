@@ -24,7 +24,11 @@ Model::Model(const char* ModelFile, bool FitSize) : pMeshes(NULL), MeshCount(0),
 }
 Model::~Model()
 {
-	// TODO: Add your code (Exercise 3
+    if (pMeshes != nullptr) {
+        delete[] pMeshes;
+    }
+    delete[] pMaterials;
+
     deleteNodes(&RootNode);
 }
 
@@ -78,6 +82,9 @@ void Model::loadMeshes(const aiScene* pScene, bool FitSize)
 
     float scale = 1;
    
+
+    // warum durch 2 nochmal ????????????????????????????
+    //max minus min nehmen eigentlich
     if (FitSize) {
         Vector bBMax = BoundingBox.Max;
         Vector bBMin = BoundingBox.Min;
@@ -88,12 +95,11 @@ void Model::loadMeshes(const aiScene* pScene, bool FitSize)
 
         float maxDist = fmax(fmax(x, y), z);
         scale = 5.0f / 2.0f / maxDist;
-
     }
 
-    //Durch alle Meshes gehen um Punkte daraus zu speichern
+    //Durch alle Meshes gehen 
     for (int i = 0; i < MeshCount; i++) {
-        //temporäre Variablen zum schnelleren Zugriff
+        //temporäre Variablen für die übersichtlichkeit
         aiMesh* tmpAIMesh = pScene->mMeshes[i];
         VertexBuffer* tmpVB = &pMeshes[i].VB;
 
@@ -126,7 +132,6 @@ void Model::loadMeshes(const aiScene* pScene, bool FitSize)
                     }
                 }
             }
-            //tmpVB->addTexcoord0(0, 0, 0);
 
             //Vertex hinzufügen
             tmpVB->addVertex(createVector(tmpAIMesh->mVertices[posVer]) * scale);
@@ -136,9 +141,9 @@ void Model::loadMeshes(const aiScene* pScene, bool FitSize)
 
         IndexBuffer* tmpIB = &pMeshes[i].IB;
         tmpIB->begin();
-        //Indexbuffer füllen: Alle Flächen durchgehen und alle Indizes derer speichern
+        //Indexbuffer füllen, durch Alle Flächen durchgehen indicies speichern
         for (int pos = 0; pos < tmpAIMesh->mNumFaces; pos++) {
-            //temporäres Face speichern
+            //temp Face für übersichtlichkeit
             aiFace tmpAiFace = tmpAIMesh->mFaces[pos];
             for (int ind = 0; ind < tmpAiFace.mNumIndices; ind++) {
                 tmpIB->addIndex(tmpAiFace.mIndices[ind]);
@@ -163,6 +168,7 @@ void Model::loadMaterials(const aiScene* pScene)
         aiColor3D tmpColor;
 
         this->pMaterials[pos].DiffTex = Texture::defaultTex();
+
         for (int j = 0; j < tmpMat->GetTextureCount(aiTextureType_DIFFUSE); j++) {
             aiString path;
             std::string fileFullPathDiffTex;
@@ -196,7 +202,7 @@ Color Model::createColor(const aiColor3D& old) {
 
 void Model::calcBoundingBox(const aiScene* pScene, AABB& Box)
 {
-    Vector min(0.0f,0.0f,0.0f);
+    Vector min(0.0f, 0.0f, 0.0f);
     Vector max(0.0f, 0.0f, 0.0f);
 
     for (int i = 0; i < pScene->mNumMeshes; i++) {

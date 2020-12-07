@@ -18,7 +18,6 @@ LineBoxModel::LineBoxModel( float Width, float Height, float Depth )
     VB.begin();
 
     for (int i = 0; i < 2; i++) {
-
         for (int j = 0; j < 2; j++) {
 
             // In X Richtung

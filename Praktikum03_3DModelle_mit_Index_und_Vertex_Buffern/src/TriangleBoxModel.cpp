@@ -50,17 +50,17 @@ TriangleBoxModel::TriangleBoxModel(float Width, float Height, float Depth)
 	VB.begin();
 
 
-	makePane(a, b, c, d, Vector(0, 0, 1));
+	makePlane(a, b, c, d, Vector(0, 0, 1));
 
-	makePane(h, g, f, e, Vector(0, 0, -1));
+	makePlane(h, g, f, e, Vector(0, 0, -1));
 
-	makePane(b, f, g, c, Vector(0, 1, 0));
+	makePlane(b, f, g, c, Vector(0, 1, 0));
 
-	makePane(e, a, d, h, Vector(0, -1, 0));
+	makePlane(e, a, d, h, Vector(0, -1, 0));
 
-	makePane(d, c, g, h, Vector(0, 0, 1));
+	makePlane(d, c, g, h, Vector(0, 0, 1));
 
-	makePane(e, f, b, a, Vector(-1, 0, 0));
+	makePlane(e, f, b, a, Vector(-1, 0, 0));
 
 	VB.end();
 
@@ -84,7 +84,7 @@ TriangleBoxModel::TriangleBoxModel(float Width, float Height, float Depth)
 }
 
 
-void TriangleBoxModel::makePane(const Vector& v0, const Vector& v1, const Vector& v2, const Vector& v3, const Vector& n) {
+void TriangleBoxModel::makePlane(const Vector& v0, const Vector& v1, const Vector& v2, const Vector& v3, const Vector& n) {
 
 	VB.addNormal(n);
 	VB.addTexcoord0(0,1);
