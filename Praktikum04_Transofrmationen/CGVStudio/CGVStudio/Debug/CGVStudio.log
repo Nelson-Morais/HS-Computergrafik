@@ -1,7 +1,9 @@
 ﻿  Application.cpp
-C:\Users\nktrc\OneDrive\VSWorkspace\CG Praktikum\Praktikum04_Transofrmationen\src\Application.cpp(100,35): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+C:\Users\nktrc\OneDrive\VSWorkspace\HS-Computergrafik\Praktikum04_Transofrmationen\src\Application.cpp(40,21): warning C4101: 'pConstShader': unreferenced local variable
+C:\Users\nktrc\OneDrive\VSWorkspace\HS-Computergrafik\Praktikum04_Transofrmationen\src\Application.cpp(39,16): warning C4101: 'pModel': unreferenced local variable
+C:\Users\nktrc\OneDrive\VSWorkspace\HS-Computergrafik\Praktikum04_Transofrmationen\src\Application.cpp(97,35): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+C:\Users\nktrc\OneDrive\VSWorkspace\HS-Computergrafik\Praktikum04_Transofrmationen\src\Application.cpp(135,51): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\nktrc\OneDrive\VSWorkspace\HS-Computergrafik\Praktikum04_Transofrmationen\src\Application.cpp(135,47): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
   Tank.cpp
-  main.cpp
-C:\Users\nktrc\OneDrive\VSWorkspace\CG Praktikum\Praktikum04_Transofrmationen\src\main.cpp(56,32): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
   Generating Code...
-  CGVStudio.vcxproj -> C:\Users\nktrc\OneDrive\VSWorkspace\CG Praktikum\Praktikum04_Transofrmationen\CGVStudio\Debug\Praktikum04_Transofrmationen.exe
+  CGVStudio.vcxproj -> C:\Users\nktrc\OneDrive\VSWorkspace\HS-Computergrafik\Praktikum04_Transofrmationen\CGVStudio\Debug\Praktikum04_Transofrmationen.exe

@@ -81,9 +81,6 @@ Application::Application(GLFWwindow* pWin) : pWindow(pWin), Cam(pWin), fb(0), lr
     pScene->addSceneFile(ASSET_DIRECTORY "scene.osh");
     Models.push_back(pScene);
     
-    
-
-    
 }
 void Application::start()
 {
@@ -133,7 +130,6 @@ void Application::update(float dtime)
 
     // Exercise 2
     Vector pos;
-
 
     glfwGetCursorPos(pWindow,&mx,&my);
     Vector collision = Application::calc3DRay(mx, my, pos);
@@ -236,5 +232,3 @@ void Application::end()
     
     Models.clear();
 }
-
-

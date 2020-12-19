@@ -24,7 +24,7 @@
 
 SceneNode::SceneNode() : m_pParent(NULL), m_pModel(NULL), m_Scaling(1,1,1)
 {
-    setLocalTransform(Vector(0, 0, 0), Vector(0, 1, 0), 0.0f);
+   setLocalTransform(Vector(0, 0, 0), Vector(0, 1, 0), 0.0f);
 }
 
 SceneNode::SceneNode( const std::string& Name, const Vector& Translation, const Vector& RotationAxis, const float RotationAngle, const Vector& Scale, SceneNode* pParent, Model* pModel)

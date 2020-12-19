@@ -58,35 +58,29 @@ void Tank::aim(const Vector& Target )
 
     //mit arctan den Winkel der Kanone berechnen
     angleCannon = atan2f(deltaZ, -deltaX);
-    // TODO: Add your code
+    
 }
 
 void Tank::update(float dtime)
 {
     Matrix chassisMatrix, chassisMov , chassisRot, chassisUrsprung;
     Matrix cannonMatrix;
-    
-
-    //std::cout << dtime << " " << fb.X << std::endl;
-
+  
     //chassis
-
     chassisUrsprung = chassis->transform(); 
     chassisRot.rotationY(fb.Y * dtime);
     chassisMov.translation(fb.X*dtime*2,0,0);
 
-   
     chassisMatrix = chassisUrsprung * chassisMov * chassisRot;
     this->chassis->transform(chassisMatrix);
 
-    Matrix rotCannonCorrection;
-
 
     //cannon
+    Matrix rotCannonCorrection;
     angleCorrection -= fb.Y * dtime;
     rotCannonCorrection.rotationY(angleCorrection + angleCannon);
     
-    cannonMatrix = chassis->transform() * rotCannonCorrection;
+    cannonMatrix = chassisUrsprung * rotCannonCorrection;
     this->cannon->transform(cannonMatrix);
 
 
