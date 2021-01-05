@@ -1,0 +1,14 @@
+﻿  Application.cpp
+C:\Users\nktrc\OneDrive\VSWorkspace\HS-Computergrafik\Praktikum05_Height-Map\src\Application.cpp(106,45): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\nktrc\OneDrive\VSWorkspace\HS-Computergrafik\Praktikum05_Height-Map\src\Application.cpp(107,43): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\nktrc\OneDrive\VSWorkspace\HS-Computergrafik\Praktikum05_Height-Map\src\Application.cpp(108,43): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\nktrc\OneDrive\VSWorkspace\HS-Computergrafik\Praktikum05_Height-Map\src\Application.cpp(110,30): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\nktrc\OneDrive\VSWorkspace\HS-Computergrafik\Praktikum05_Height-Map\src\Application.cpp(111,30): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\nktrc\OneDrive\VSWorkspace\HS-Computergrafik\Praktikum05_Height-Map\src\Application.cpp(114,30): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\nktrc\OneDrive\VSWorkspace\HS-Computergrafik\Praktikum05_Height-Map\src\Application.cpp(115,30): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  Generating code
+  1 of 742 functions ( 0.1%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    1 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  CGVStudio.vcxproj -> C:\Users\nktrc\OneDrive\VSWorkspace\HS-Computergrafik\Praktikum05_Height-Map\CGVStudio\Release\Praktikum05_Height-Map.exe

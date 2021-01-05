@@ -1,0 +1,14 @@
+﻿  Application.cpp
+C:\Users\nktrc\OneDrive\VSWorkspace\HS-Computergrafik\Praktikum05_Height-Map\src\Application.cpp(106,45): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\nktrc\OneDrive\VSWorkspace\HS-Computergrafik\Praktikum05_Height-Map\src\Application.cpp(107,43): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\nktrc\OneDrive\VSWorkspace\HS-Computergrafik\Praktikum05_Height-Map\src\Application.cpp(108,43): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\nktrc\OneDrive\VSWorkspace\HS-Computergrafik\Praktikum05_Height-Map\src\Application.cpp(110,30): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\nktrc\OneDrive\VSWorkspace\HS-Computergrafik\Praktikum05_Height-Map\src\Application.cpp(111,30): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\nktrc\OneDrive\VSWorkspace\HS-Computergrafik\Praktikum05_Height-Map\src\Application.cpp(114,30): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\nktrc\OneDrive\VSWorkspace\HS-Computergrafik\Praktikum05_Height-Map\src\Application.cpp(115,30): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  Terrain.cpp
+C:\Users\nktrc\OneDrive\VSWorkspace\HS-Computergrafik\Praktikum05_Height-Map\src\Terrain.cpp(54,20): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\nktrc\OneDrive\VSWorkspace\HS-Computergrafik\Praktikum05_Height-Map\src\Terrain.cpp(55,20): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+  TerrainShader.cpp
+  Generating Code...
+  CGVStudio.vcxproj -> C:\Users\nktrc\OneDrive\VSWorkspace\HS-Computergrafik\Praktikum05_Height-Map\CGVStudio\Debug\Praktikum05_Height-Map.exe
