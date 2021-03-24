@@ -49,7 +49,7 @@ void main()
     vec3 L = normalize(LightPos-Position);
     vec3 E = normalize(EyePos-Position);
     vec3 R = reflect(-L,N);
-    vec3 H = normalize(E+L);
+    vec3 H = normalize(E+L); //AUFGABE 1
     vec3 DiffuseComponent;
 	vec3 SpecularComponent;
 	vec3 Color = vec3(0,0,0);
